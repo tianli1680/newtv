@@ -8,7 +8,7 @@ if (!M3U_URL) {
 }
 
 // 模拟 VLC 的 User-Agent
-const VLC_USER_AGENT = 'VLC/3.0.18 LibVLC/3.0.18';
+const VLC_USER_AGENT = 'okHttp/Mod-1.5.0.0';
 
 // 延迟函数（毫秒）
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
