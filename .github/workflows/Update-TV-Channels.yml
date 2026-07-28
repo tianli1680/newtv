@@ -2,7 +2,7 @@ name: Update TV Channels
 
 on:
   schedule:
-    - cron: '30 21,9 * * *'   # 每天 7:00 和 17:00 运行
+    - cron: '0 21,9 * * *'   # 每天 7:00 和 17:00 运行
   workflow_dispatch:          # 允许手动触发
 
 permissions:
